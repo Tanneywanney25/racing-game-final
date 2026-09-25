@@ -24,13 +24,13 @@ export function createSketch(deps: SketchDeps): (p: p5) => void {
     const images: Partial<Record<FruitType | 'jungle' | 'basket', p5.Image>> = {};
 
     p.preload = () => {
-      images.jungle = p.loadImage('/assets/jungle.jpg');
-      images.basket = p.loadImage('/assets/basket.png');
-      images.apple = p.loadImage('/assets/apple.png');
-      images.banana = p.loadImage('/assets/banana.png');
-      images.melon = p.loadImage('/assets/melon.png');
-      images.orange = p.loadImage('/assets/orange.png');
-      images.pineapple = p.loadImage('/assets/pineapple.png');
+      images.jungle = p.loadImage('assets/jungle.jpg');
+      images.basket = p.loadImage('assets/basket.png');
+      images.apple = p.loadImage('assets/apple.png');
+      images.banana = p.loadImage('assets/banana.png');
+      images.melon = p.loadImage('assets/melon.png');
+      images.orange = p.loadImage('assets/orange.png');
+      images.pineapple = p.loadImage('assets/pineapple.png');
     };
 
     p.setup = () => {
