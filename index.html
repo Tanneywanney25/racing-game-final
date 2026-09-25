@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruit Catcher Online</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header id="hud">
+        <span id="hud-p1">Seat 1: —</span>
+        <span id="hud-p2">Seat 2: —</span>
+        <span id="hud-timer"></span>
+        <span id="hud-conn">○</span>
+      </header>
+      <main id="stage-wrap">
+        <div id="stage" aria-label="Fruit Catcher Online game canvas"></div>
+        <div id="lobby" hidden></div>
+      </main>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
